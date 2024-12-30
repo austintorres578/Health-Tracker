@@ -1,0 +1,93 @@
+.sleep-preview-con{
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+}
+
+.sleep-preview-con button{
+    margin-top: 15px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3f3f3f;
+    color: white;
+    cursor: pointer;
+}
+
+.sleep-preview-con h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sleep-time{
+    display:flex;
+    align-items: center;
+}
+
+.sleep-time p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sleep-hours:after{
+    font-size: 16px;
+    content: 'h';
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 400;
+}
+
+.sleep-minutes:after{
+    font-size: 16px;
+    content: 'm';
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 400;
+}
+
+.sleep-time p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sleep-meter-con{
+    background-color: rgb(61, 61, 61);
+    height: 10px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.sleep-meter-con div{
+    background-color: rgb(156, 33, 156);
+    height: 10px;
+    width: 20px;
+    border-radius: 20px;
+}
+
+.sleep-meter-col p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background: rgba(156, 33, 156, 0.562);
+    width: fit-content;
+    padding: 5px 10px;
+    vertical-align: middle;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sleep-meter-col p:after{
+    content: 'h of 8';
+    padding-left: 5px;
+    font-weight: 400;
+}
